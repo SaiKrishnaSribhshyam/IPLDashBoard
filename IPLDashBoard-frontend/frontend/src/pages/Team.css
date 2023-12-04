@@ -1,0 +1,45 @@
+  .TeamPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 50px 200px  200px 200px;
+  }
+
+  .teamName {
+    grid-column: span 3;
+    justify-items: start;
+    align-self: center ;
+    font-size: 2rem;
+    color: antiquewhite;
+  }
+
+  .MatchDetailHeader{
+    text-align: left;
+    color: antiquewhite;
+    font-size: 3rem;
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+  .MatchTile {
+    justify-items: start;
+    border:pink;
+    border-style: solid;
+    color:black;
+  }
+
+  .winLoss{
+    color: antiquewhite;
+    text-align: center;
+  }
+
+  .wonMatchTile {
+    background-color: #03fc9d;
+  }
+
+  .lostMatchTile{
+    background-color:indianred;
+  }
